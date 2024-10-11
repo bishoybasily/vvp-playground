@@ -2,7 +2,7 @@ apiVersion: ververica.platform/v1
 kind: VvpDeployment
 metadata:
   name: ververica-k8s-operator-test
-  namespace: default
+  namespace: vvp-bishoybasily
 spec:
   syncingMode: PUT
   deployment:
