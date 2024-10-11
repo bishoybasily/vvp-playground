@@ -11,7 +11,7 @@ spec:
       namespace: vvp-bishoybasily
     spec:
       state: RUNNING
-      deploymentTargetName: mwam-ververica-test
+      deploymentTargetName: default
       maxSavepointCreationAttempts: 4
       maxJobCreationAttempts: 4
       upgradeStrategy:
