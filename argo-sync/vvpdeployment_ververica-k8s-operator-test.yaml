@@ -2,11 +2,13 @@ apiVersion: ververica.platform/v1
 kind: VvpDeployment
 metadata:
   name: ververica-k8s-operator-test
+  namespace: vvp-bishoybasily
 spec:
   syncingMode: PUT
   deployment:
     userMetadata:
       name: ververica-k8s-operator-test
+      namespace: vvp-bishoybasily
     spec:
       state: RUNNING
       deploymentTargetName: mwam-ververica-test
